@@ -73,6 +73,7 @@ export const slice = createSlice({
 
     showAllPosts(state) {
       state.posts = state.initialPosts;
+      state.currentPage = 1;
 
       state.indexOfLastPost = state.currentPage * state.perPage;
       state.indexOfFirstPost = state.indexOfLastPost - state.perPage;
@@ -87,8 +88,6 @@ export const slice = createSlice({
         state.indexOfFirstPost,
         state.indexOfLastPost
       );
-
-      state.currentPage = 1;
     },
 
     filterPosts(state, action) {
