@@ -1,39 +1,73 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pages {
+  margin-top: 1rem;
+  height: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.page,
+.currentPage,
+.pageArr {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 1rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.pageArr {
+  padding: 1rem 0.55rem;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.currentPage {
+  border: 1px solid black;
+  background: cyan;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+input {
+  margin-top: 1rem;
+}
+
+.posts {
+  min-height: 14rem;
+  height: 14rem;
+  margin: 1rem 0 2rem 0;
+}
+.post {
+  margin: 0.2rem 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.filteredList {
+  max-height: 10rem;
+  overflow: scroll;
+  border: 1px solid cyan;
+}
+
+.filter {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.found {
+  color: darkblue;
+  font-size: 1.2rem;
+  margin: 0.15rem 0;
+}
+
+.filteredPost {
+  cursor: pointer;
+}
+
+.filteredPost:hover,
+.filteredPost:focus {
+  background: cyan;
 }
