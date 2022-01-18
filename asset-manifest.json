@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fetchAndFilterPosts/static/css/main.e9d73a33.css",
+    "main.js": "/fetchAndFilterPosts/static/js/main.0ddfadc8.js",
+    "index.html": "/fetchAndFilterPosts/index.html",
+    "main.e9d73a33.css.map": "/fetchAndFilterPosts/static/css/main.e9d73a33.css.map",
+    "main.0ddfadc8.js.map": "/fetchAndFilterPosts/static/js/main.0ddfadc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9d73a33.css",
+    "static/js/main.0ddfadc8.js"
+  ]
+}
